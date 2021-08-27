@@ -16,8 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Formulario extends AppCompatActivity implements View.OnClickListener {
-
-    //campos form
+    
     private EditText txtNome;
     private EditText txtFone;
     private EditText txtEmail;
