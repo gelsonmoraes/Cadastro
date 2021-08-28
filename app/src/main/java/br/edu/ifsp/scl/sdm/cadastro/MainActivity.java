@@ -15,8 +15,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Formulario extends AppCompatActivity implements View.OnClickListener {
-    
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
     private EditText txtNome;
     private EditText txtFone;
     private EditText txtEmail;
@@ -109,6 +109,7 @@ public class Formulario extends AppCompatActivity implements View.OnClickListene
         rdMasc = findViewById(R.id.rdMasc);
 
 
+        spnEstado = findViewById(R.id.spnEstado);
         spnEstado.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
