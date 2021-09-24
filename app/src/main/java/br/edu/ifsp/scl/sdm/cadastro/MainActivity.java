@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), charSequence, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -113,9 +113,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spnEstado.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(getApplicationContext(),
+                /*Toast.makeText(getApplicationContext(),
                         ((TextView) view).getText(),
-                        Toast.LENGTH_SHORT).show();
+                        Toast.LENGTH_SHORT).show();*/
             }
 
             @Override
